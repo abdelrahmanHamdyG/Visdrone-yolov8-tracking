@@ -1,11 +1,11 @@
 # YOLOv8 VisDrone Object Detection and Tracking
 
-This project implements object detection and tracking for drone footage using a fine-tuned YOLOv8 model on the VisDrone dataset, combined with DeepSORT for multi-object tracking.
+This project implements object detection and tracking for drone footage using a fine-tuned YOLOv8  nano model on the VisDrone dataset, combined with DeepSORT for multi-object tracking.
 
 ## Overview
 
 The project consists of two main components:
-1. **Object Detection**: YOLOv8 model fine-tuned on the VisDrone2018 dataset
+1. **Object Detection**: YOLOv8 nano model fine-tuned on the VisDrone2018 dataset
 2. **Object Tracking**: DeepSORT algorithm for multi-object tracking in video sequences
 
 ## Dataset Information
@@ -88,7 +88,7 @@ The tracking performance achieved using DeepSORT and on this dataset [VisDrone20
 ## Technical Details
 
 ### YOLOv8 Fine-tuning
-- Base model: YOLOv8
+- Base model: YOLOv8 nano
 - Training dataset: VisDrone2018 detection dataset
 - Fine-tuning approach: Transfer learning from COCO pre-trained weights
 - Target classes: 10 object classes relevant to drone surveillance
